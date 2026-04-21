@@ -1,0 +1,105 @@
+body{
+    margin: 0px;
+    background-color: rgb(93, 91, 91);
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(52, 51, 51);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    text-align: center;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(28, 27, 27);
+}
+.navbar li{
+    float: left;
+}
+.header{
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 70px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.right{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border-style: solid ;
+    border-radius: 8px;
+}
+.left{
+    margin-top: 40px;
+    padding: 10px;
+    float: left;
+    display: flex;
+    height: auto;
+    max-width: 30%;
+    
+}
+.achievements{
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.h_banner{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+}
+.banner{
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+.center{
+    position: absolute;
+    top: 10%;
+    bottom: 50%;
+    left: 45%;
+    font-size: 70px; 
+}
+.Billboard{
+    flex-direction: column;
+    display: flex;
+    border-style: solid;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+.WhiteHouse{
+    flex-direction: column;
+    display: flex;
+    border-style: solid;
+    border-radius: 5px;
+}
+.titles{
+    font-size: 40px;
+}
