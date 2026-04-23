@@ -132,3 +132,7 @@ h3{
     left: 45%;
     font-size: 70px;
 }
+hr{
+    border-color: black;
+    border-style: solid;
+}
